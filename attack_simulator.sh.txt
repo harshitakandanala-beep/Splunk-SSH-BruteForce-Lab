@@ -1,0 +1,5 @@
+#!/bin/bash
+# Simple script to simulate 50 failed SSH login attempts
+for i in {1..50}; do 
+    ssh nonexistentuser@localhost -p 22 -o ConnectTimeout=1 -o BatchMode=yes
+done
