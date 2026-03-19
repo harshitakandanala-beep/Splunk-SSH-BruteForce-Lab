@@ -13,6 +13,7 @@ This project demonstrates how to set up a Security Information and Event Managem
 1. **Log Redirection:** Due to permission constraints between WSL and Windows, I automated the copying of Linux `auth.log` to a Windows-accessible directory.
 2. **Splunk Configuration:** Set up a "File Monitor" input in Splunk to ingest the mirrored log file.
 3. **Attack Simulation:** Executed a Bash loop to generate 50+ "Failed password" events for a non-existent user.
+   [View the Full Attack Script here](attack_simulator.sh.txt)
 4. **Data Analysis:** Developed SPL queries to identify spikes in authentication failures.
 
 ## Visualizations
