@@ -17,7 +17,7 @@ This project demonstrates how to set up a Security Information and Event Managem
 
 ## Visualizations
 ### Attack Spike Detected
-![Attack Spike](images/attack_spike.png.png)
+![Attack Spike](attack_spike.png.png)
 
 ## Key SPL Queries Used
 ```splunk
